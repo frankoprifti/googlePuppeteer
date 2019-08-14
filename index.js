@@ -17,6 +17,7 @@ app.get("/:id", (req, res) => {
     res.setHeader("Content-Type", "application/json");
     res.end(
         JSON.stringify({
+            img: "Who Knows?",
             data: param
         })
     );
